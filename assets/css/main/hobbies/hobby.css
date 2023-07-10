@@ -1,0 +1,14 @@
+.hobby{
+  background-color: var(--bg-branco);
+
+  min-width: 150px;
+  height: 90px;
+
+  padding: 1rem;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}

@@ -1,0 +1,14 @@
+.secao-hobbies{
+  background-color: var(--bg-cinza);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+.hobbies{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}

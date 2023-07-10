@@ -1,0 +1,8 @@
+.formulario__campos{
+  background-color: var(--bg-branco);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}

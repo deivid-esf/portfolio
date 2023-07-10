@@ -1,0 +1,5 @@
+.apresentacao__titulo{
+  font-size: 1.5rem;
+  color: var(--texto);
+  font-weight: bold;
+}

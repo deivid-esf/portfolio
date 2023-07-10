@@ -1,0 +1,7 @@
+.secao-formacoes{
+  background-color: var(--bg-azul);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}

@@ -1,0 +1,19 @@
+.experiencia__botao{
+  all: unset;
+  text-align: center;
+  padding: .5rem 1rem;
+}
+.experiencia__botao--repositorio{
+  border: 1px solid var(--azul);
+  color: var(--azul);
+  font-weight: 600;
+
+  margin-right: .5rem;
+}
+
+.experiencia__botao--demo{
+  border: 1px solid var(--azul);
+  background-color: var(--azul);
+  color: var(--bg-branco);
+  font-weight: 600;
+}

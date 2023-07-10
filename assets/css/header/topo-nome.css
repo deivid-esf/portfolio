@@ -1,0 +1,6 @@
+.topo__nome--titulo{
+  color: var(--texto);
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-left: 0.5rem;
+}

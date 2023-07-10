@@ -1,0 +1,10 @@
+.foot{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot__conteudo{
+  font-size: 1.1rem;
+  text-align: center;
+}

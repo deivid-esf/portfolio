@@ -1,0 +1,7 @@
+.secao-experiencias{
+  background-color: var(--bg-cinza);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}

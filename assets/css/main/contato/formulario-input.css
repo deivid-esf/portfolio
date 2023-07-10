@@ -1,0 +1,21 @@
+.formulario__input{
+  all: unset;
+  box-sizing: border-box;
+  border-bottom: 3px solid var(--cinza);
+  margin-top: .3rem;
+  color: var(--texto);
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0 .5rem .5rem .5rem;
+}
+.formulario__input:focus{
+  border-color: var(--azul);
+}
+
+.formulario__input--mensagem{
+  height: 100px;
+  overflow-y: auto;
+  word-break: break-word;
+}

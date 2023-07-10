@@ -1,0 +1,14 @@
+.formacao__imagem{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-branco);
+
+  margin-bottom: 0.75rem;
+}
+
+.formacao__imagem img{
+  width: 50%;
+}

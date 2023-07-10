@@ -1,0 +1,13 @@
+.apresentacao__link{
+  text-decoration: none;
+  color: var(--texto);
+  font-weight: 600;
+}
+
+.apresentacao__link::after{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url(../../../imagens/flecha.svg) center;
+}

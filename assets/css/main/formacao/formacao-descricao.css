@@ -1,0 +1,9 @@
+.formacao__descricao{
+  font-size: .875rem;
+  margin-top: 0.175rem;
+}
+
+.formacao__descricao--instituicao{
+  font-weight: 200;
+  margin-left: 1rem;
+}

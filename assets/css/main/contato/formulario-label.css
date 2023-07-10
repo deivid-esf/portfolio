@@ -1,0 +1,12 @@
+.formulario__label{
+  display: flex;
+  flex-direction: column;
+  color: var(--texto);
+}
+.formulario__label--span{
+  font-size: .9rem;
+  padding: .5rem 0 0 .5rem;
+}
+.formulario__label:focus-within{
+  color: var(--azul);
+}
