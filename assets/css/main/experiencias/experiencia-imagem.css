@@ -9,6 +9,14 @@
   margin-bottom: 0.75rem;
 }
 
-.formacao__imagem img{
-  width: 50%;
+@media screen and (width >= 768px) {
+  .experiencia__imagem{
+    height: 250px;
+  }
+}
+@media screen and (width >= 1440px) {
+  .experiencia__imagem{
+    height: 300px;
+    width: 70%;
+  }
 }

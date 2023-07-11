@@ -1,14 +1,27 @@
 .hobby{
   background-color: var(--bg-branco);
 
-  min-width: 150px;
-  height: 90px;
+  width: 45%;
+  min-height: 130px;
 
   padding: 1rem;
   border-radius: 5px;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
 
+}
+
+@media screen and (width >=768px) {
+  .hobby{
+    width: calc((100%/3) - 20px);
+  }
+}
+
+@media screen and (width >= 1440px) {
+  .hobby{
+    height: 170px;
+    max-width: 180px;
+  }
 }

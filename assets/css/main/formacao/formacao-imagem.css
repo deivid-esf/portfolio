@@ -1,6 +1,6 @@
 .formacao__imagem{
   width: 100%;
-  height: 100px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,4 +11,15 @@
 
 .formacao__imagem img{
   width: 50%;
+}
+
+@media screen and (width >=768px) {
+  .formacao__imagem img{
+    width: 75%;
+  }
+}
+@media screen and (width >= 1440px) {
+  .formacao__imagem{
+    height: 300px;
+  }
 }

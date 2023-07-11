@@ -1,0 +1,7 @@
+
+@media screen and (width >= 768px) {
+  .apresentacao__div{
+    display: flex;
+    flex-flow: row-reverse;
+  }
+}

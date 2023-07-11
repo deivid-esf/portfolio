@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="assets/css/main/apresentacao/apresentacao-lista.css" />
   <link rel="stylesheet" href="assets/css/main/apresentacao/apresentacao-titulo.css" />
   <link rel="stylesheet" href="assets/css/main/apresentacao/apresentacao.css" />
+  <link rel="stylesheet" href="assets/css/main/apresentacao/apresentacao-div.css" />
   <link rel="stylesheet" href="assets/css/main/sobre/sobre-descricao.css" />
   <link rel="stylesheet" href="assets/css/main/sobre/sobre-titulo.css" />
   <link rel="stylesheet" href="assets/css/main/sobre/sobre.css" />
@@ -38,6 +39,7 @@
   <link rel="stylesheet" href="assets/css/main/formacao/formacao.css" />
   <link rel="stylesheet" href="assets/css/main/formacao/formacoes-titulo.css" />
   <link rel="stylesheet" href="assets/css/main/formacao/formacoes.css" />
+  <link rel="stylesheet" href="assets/css/main/experiencias/experiencia.css" />
   <link rel="stylesheet" href="assets/css/main/experiencias/experiencia-botao.css" />
   <link rel="stylesheet" href="assets/css/main/experiencias/experiencia-botoes.css" />
   <link rel="stylesheet" href="assets/css/main/experiencias/experiencia-descricao.css" />
@@ -47,9 +49,11 @@
   <link rel="stylesheet" href="assets/css/main/experiencias/experiencias-titulo.css" />
   <link rel="stylesheet" href="assets/css/main/experiencias/experiencias.css" />
   <link rel="stylesheet" href="assets/css/main/contato/contato-descricao.css" />
+  <link rel="stylesheet" href="assets/css/main/contato/contato-conteudo.css" />
   <link rel="stylesheet" href="assets/css/main/contato/contato-formulario.css" />
   <link rel="stylesheet" href="assets/css/main/contato/contato-titulo.css" />
   <link rel="stylesheet" href="assets/css/main/contato/contato.css" />
+  <link rel="stylesheet" href="assets/css/main/contato/contato-fundo.css" />
   <link rel="stylesheet" href="assets/css/main/contato/formulario-botao.css" />
   <link rel="stylesheet" href="assets/css/main/contato/formulario-campo.css" />
   <link rel="stylesheet" href="assets/css/main/contato/formulario-input.css" />
@@ -71,42 +75,44 @@
   <main>
     <section class="apresentacao">
       <div class="largura-limitada">
-        <div class="apresentacao__perfil">
-          <img src="assets/imagens/perfil.jpeg" alt="Imagem de Deivid" title="Deivid Esteferson"
-            class="apresentacao__perfil--imagem" />
-        </div>
-        <div class="apresentacao__detalhes">
-          <h1 class="apresentacao__titulo">
-            Olá, meu nome é Deivid Esteferson e eu sou um desenvolvedor
-            WEB!
-          </h1>
-          <p class="apresentacao__descricao">
-            Atualmente estou participando do projeto Oracle ONE na Alura, que
-            visa formar desenvolvedores web e prepará-los para o mercado de
-            trabalho!
-          </p>
-          <ul class="apresentacao__lista">
-            <li class="apresentacao__item">
-              <a href="https://github.com/deivid-esf" class="apresentacao__link" target="_blank">
-                Github
-              </a>
-            </li>
-            <li class="apresentacao__item">
-              <a href="https://www.linkedin.com/in/deivid-esf/" class="apresentacao__link" target="_blank">
-                LinkedIn
-              </a>
-            </li>
-            <li class="apresentacao__item">
-              <a href="https://twitter.com/deivid_esf" class="apresentacao__link" target="_blank">
-                Twitter
-              </a>
-            </li>
-            <li class="apresentacao__item">
-              <a href="https://www.cvkeep.com/cv/deividesf" class="apresentacao__link" target="_blank">
-                Currículo
-              </a>
-            </li>
-          </ul>
+        <div class="apresentacao__div">
+          <div class="apresentacao__perfil">
+            <img src="assets/imagens/perfil.jpeg" alt="Imagem de Deivid" title="Deivid Esteferson"
+              class="apresentacao__perfil--imagem" />
+          </div>
+          <div class="apresentacao__detalhes">
+            <h1 class="apresentacao__titulo">
+              Olá, meu nome é Deivid Esteferson e eu sou um desenvolvedor
+              WEB!
+            </h1>
+            <p class="apresentacao__descricao">
+              Atualmente estou participando do projeto Oracle ONE na Alura, que
+              visa formar desenvolvedores web e prepará-los para o mercado de
+              trabalho!
+            </p>
+            <ul class="apresentacao__lista">
+              <li class="apresentacao__item">
+                <a href="https://github.com/deivid-esf" class="apresentacao__link" target="_blank">
+                  Github
+                </a>
+              </li>
+              <li class="apresentacao__item">
+                <a href="https://www.linkedin.com/in/deivid-esf/" class="apresentacao__link" target="_blank">
+                  LinkedIn
+                </a>
+              </li>
+              <li class="apresentacao__item">
+                <a href="https://twitter.com/deivid_esf" class="apresentacao__link" target="_blank">
+                  Twitter
+                </a>
+              </li>
+              <li class="apresentacao__item">
+                <a href="https://www.cvkeep.com/cv/deividesf" class="apresentacao__link" target="_blank">
+                  Currículo
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -183,37 +189,39 @@
       </div>
     </section>
     <section class="secao-formacoes">
-      <div class="formacoes largura-limitada">
+      <div class="largura-limitada">
         <h3 class="formacoes__titulo">Formação acadêmica</h3>
-        <div class="formacao">
-          <div class="formacao__imagem">
-            <img src="assets/imagens/ifpa.webp" alt="Ícone do IFPA">
+        <div class="formacoes">
+          <div class="formacao">
+            <div class="formacao__imagem">
+              <img src="assets/imagens/ifpa.webp" alt="Ícone do IFPA">
+            </div>
+            <h4 class="formacao__titulo">Ensino Médio</h4>
+            <p class="formacao__descricao">2019-2022 <span class="formacao__descricao--instituicao">IFPA - Campus
+                Altamira</span></p>
           </div>
-          <h4 class="formacao__titulo">Ensino Médio</h4>
-          <p class="formacao__descricao">2019-2022 <span class="formacao__descricao--instituicao">IFPA - Campus
-              Altamira</span></p>
-        </div>
-        <div class="formacao">
-          <div class="formacao__imagem">
-            <img src="assets/imagens/ifpa.webp" alt="Ícone do IFPA">
+          <div class="formacao">
+            <div class="formacao__imagem">
+              <img src="assets/imagens/ifpa.webp" alt="Ícone do IFPA">
+            </div>
+            <h4 class="formacao__titulo">Técnico em Edificações</h4>
+            <p class="formacao__descricao">2019-2022 <span class="formacao__descricao--instituicao">IFPA - Campus
+                Altamira</span></p>
           </div>
-          <h4 class="formacao__titulo">Técnico em Edificações</h4>
-          <p class="formacao__descricao">2019-2022 <span class="formacao__descricao--instituicao">IFPA - Campus
-              Altamira</span></p>
-        </div>
-        <div class="formacao">
-          <div class="formacao__imagem">
-            <img class="formacao__imagem--alura" src="assets/imagens/alura.png" />
+          <div class="formacao">
+            <div class="formacao__imagem">
+              <img class="formacao__imagem--alura" src="assets/imagens/alura.png" />
+            </div>
+            <h4 class="formacao__titulo">Formação Desenvolvimento Pessoal</h4>
+            <p class="formacao__descricao">2023 <span class="formacao__descricao--instituicao">Alura</span></p>
           </div>
-          <h4 class="formacao__titulo">Formação Desenvolvimento Pessoal</h4>
-          <p class="formacao__descricao">2023 <span class="formacao__descricao--instituicao">Alura</span></p>
-        </div>
-        <div class="formacao">
-          <div class="formacao__imagem">
-            <img class="formacao__imagem--alura" src="assets/imagens/alura.png" />
+          <div class="formacao">
+            <div class="formacao__imagem">
+              <img class="formacao__imagem--alura" src="assets/imagens/alura.png" />
+            </div>
+            <h4 class="formacao__titulo">Formação Iniciante em Programação</h4>
+            <p class="formacao__descricao">2023 <span class="formacao__descricao--instituicao">Alura</span></p>
           </div>
-          <h4 class="formacao__titulo">Formação Iniciante em Programação</h4>
-          <p class="formacao__descricao">2023 <span class="formacao__descricao--instituicao">Alura</span></p>
         </div>
       </div>
     </section>
@@ -231,33 +239,72 @@
             </div>
           </div>
         </div>
+        <div class="experiencia">
+          <div class="experiencia__imagem"></div>
+          <div class="experiencia__conteudo">
+            <h4 class="experiencia__titulo">Decodificador de texto</h4>
+            <p class="experiencia__descricao">Challenge da Alura</p>
+            <div class="experiencia__botoes">
+              <button class="experiencia__botao experiencia__botao--repositorio">Repositório</button>
+              <button class="experiencia__botao experiencia__botao--demo">Ver demo</button>
+            </div>
+          </div>
+        </div>
+        <div class="experiencia">
+          <div class="experiencia__imagem"></div>
+          <div class="experiencia__conteudo">
+            <h4 class="experiencia__titulo">Decodificador de texto</h4>
+            <p class="experiencia__descricao">Challenge da Alura</p>
+            <div class="experiencia__botoes">
+              <button class="experiencia__botao experiencia__botao--repositorio">Repositório</button>
+              <button class="experiencia__botao experiencia__botao--demo">Ver demo</button>
+            </div>
+          </div>
+        </div>
+        <div class="experiencia">
+          <div class="experiencia__imagem"></div>
+          <div class="experiencia__conteudo">
+            <h4 class="experiencia__titulo">Decodificador de texto</h4>
+            <p class="experiencia__descricao">Challenge da Alura</p>
+            <div class="experiencia__botoes">
+              <button class="experiencia__botao experiencia__botao--repositorio">Repositório</button>
+              <button class="experiencia__botao experiencia__botao--demo">Ver demo</button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="contato">
+    <section class="secao-contato">
       <div class="largura-limitada">
-        <h3 class="contato__titulo">Contato</h3>
-        <p class="contato__descricao">Quer entrar em contato comigo? Preencha o formulário a seguir e entrarei em
-          contato
-          o mais rápido possível.</p>
-        <form action="" class="formulario">
-          <div class="formulario__campos">
-            <label class="formulario__label"><span class="formulario__label--span">Nome</span><input
-                class="formulario__input" type="text"></label>
+        <div class="contato">
+          <div class="contato__fundo"></div>
+          <div class="contato__conteudo">
+  
+            <h3 class="contato__titulo">Contato</h3>
+            <p class="contato__descricao">Quer entrar em contato comigo? Preencha o formulário a seguir e entrarei em
+              contato
+              o mais rápido possível.</p>
+            <form action="" class="formulario">
+              <div class="formulario__campos">
+                <label class="formulario__label"><span class="formulario__label--span">Nome</span><input
+                    class="formulario__input" type="text"></label>
+              </div>
+              <div class="formulario__campos">
+                <label class="formulario__label"><span class="formulario__label--span">E-mail</span><input
+                    class="formulario__input" type="email"></label>
+              </div>
+              <div class="formulario__campos">
+                <label class="formulario__label"><span class="formulario__label--span">Assunto</span><input
+                    class="formulario__input" type="text"></label>
+              </div>
+              <div class="formulario__campos">
+                <label class="formulario__label"><span class="formulario__label--span">Mensagem</span><textarea
+                    class="formulario__input formulario__input--mensagem"></textarea></label>
+              </div>
+              <button class="formulario__botao">Enviar mensagem</button>
+            </form>
           </div>
-          <div class="formulario__campos">
-            <label class="formulario__label"><span class="formulario__label--span">E-mail</span><input
-                class="formulario__input" type="email"></label>
-          </div>
-          <div class="formulario__campos">
-            <label class="formulario__label"><span class="formulario__label--span">Assunto</span><input
-                class="formulario__input" type="text"></label>
-          </div>
-          <div class="formulario__campos">
-            <label class="formulario__label"><span class="formulario__label--span">Mensagem</span><textarea
-                class="formulario__input formulario__input--mensagem"></textarea></label>
-          </div>
-          <button class="formulario__botao">Enviar mensagem</button>
-        </form>
+        </div> 
       </div>
     </section>
   </main>

@@ -1,0 +1,17 @@
+@media screen and (width < 1440px) {
+  .contato__fundo{
+    display: none;
+  }
+}
+@media screen and (width >= 1440px) {
+  .contato__fundo{
+    height: 500px;
+    width: 40%;
+    background-image: url(../../../imagens/fundo.jpg);
+    background-position: right;
+    background-size: cover;
+  }
+  .contato__conteudo{
+    width: 60%;
+  }
+}

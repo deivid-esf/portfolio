@@ -1,3 +1,17 @@
 .experiencia{
   margin-bottom: 1rem;
 }
+@media screen and (width >= 1440px){
+  .experiencia{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+  .experiencia:nth-child(2n+1){
+    flex-flow: row-reverse;
+  }
+  .experiencia__conteudo{
+    width: 35%;
+  }
+}

@@ -2,3 +2,11 @@
   width: 7rem;
   border-radius: 100%;
 }
+@media screen and (width >= 768px) {
+  .apresentacao__perfil--imagem{
+    width: 10rem;
+  }
+  .apresentacao__perfil{
+    margin-left: 3rem;
+  }
+}

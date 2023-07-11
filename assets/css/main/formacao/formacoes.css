@@ -5,3 +5,17 @@
   align-items: center;
   padding-bottom: 1.5rem;
 }
+
+@media screen and (width >= 768px) {
+  .formacoes{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (width >= 1440px) {
+  .formacoes{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

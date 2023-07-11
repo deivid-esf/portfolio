@@ -1,3 +1,8 @@
 .largura-limitada{
   width: 90%;
 }
+@media screen and (width >= 1440px) {
+  .largura-limitada{
+    max-width: 1240px;
+  }
+}
