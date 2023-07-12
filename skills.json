@@ -1,0 +1,22 @@
+[
+  {
+    "titulo": "CSS",
+    "imagem": "assets/imagens/css-file 1.svg",
+    "alt": "Ícone do CSS"
+  },
+  {
+    "titulo": "ReactJS",
+    "imagem":"assets/imagens/react.svg",
+    "alt":"Ícone do React"
+  },
+  {
+    "titulo": "HTML5",
+    "imagem": "assets/imagens/html.svg",
+    "alt":"Ícone do HTML5"
+  },
+  {
+    "titulo": "JavaScript",
+    "imagem": "assets/imagens/javascript.svg",
+    "alt": "Ícone do JavaScript"
+  }
+]

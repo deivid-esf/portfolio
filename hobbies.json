@@ -1,0 +1,27 @@
+[
+  {
+    "titulo": "Assistir séries",
+    "imagem": "assets/imagens/tv.svg",
+    "alt": "Ícone de uma Televisão"
+  },
+  {
+    "titulo": "Cozinhar",
+    "imagem": "assets/imagens/cook.svg",
+    "alt":"Ícone de cozinha"
+  },
+  {
+    "titulo": "Ler",
+    "imagem": "assets/imagens/livro.svg",
+    "alt": "Ícone de Livro"
+  },
+  {
+    "titulo": "Ouvir música",
+    "imagem":"assets/imagens/hradphone.svg",
+    "alt":"Ícone de Headphone"
+  },
+  {
+    "titulo": "Tirar fotos",
+    "imagem": "assets/imagens/camera.svg",
+    "alt": "Ícone de  câmera"
+  }
+]
