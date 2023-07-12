@@ -234,41 +234,8 @@
             <h4 class="experiencia__titulo">Decodificador de texto</h4>
             <p class="experiencia__descricao">Challenge da Alura</p>
             <div class="experiencia__botoes">
-              <button class="experiencia__botao experiencia__botao--repositorio">Repositório</button>
-              <button class="experiencia__botao experiencia__botao--demo">Ver demo</button>
-            </div>
-          </div>
-        </div>
-        <div class="experiencia">
-          <div class="experiencia__imagem"></div>
-          <div class="experiencia__conteudo">
-            <h4 class="experiencia__titulo">Decodificador de texto</h4>
-            <p class="experiencia__descricao">Challenge da Alura</p>
-            <div class="experiencia__botoes">
-              <button class="experiencia__botao experiencia__botao--repositorio">Repositório</button>
-              <button class="experiencia__botao experiencia__botao--demo">Ver demo</button>
-            </div>
-          </div>
-        </div>
-        <div class="experiencia">
-          <div class="experiencia__imagem"></div>
-          <div class="experiencia__conteudo">
-            <h4 class="experiencia__titulo">Decodificador de texto</h4>
-            <p class="experiencia__descricao">Challenge da Alura</p>
-            <div class="experiencia__botoes">
-              <button class="experiencia__botao experiencia__botao--repositorio">Repositório</button>
-              <button class="experiencia__botao experiencia__botao--demo">Ver demo</button>
-            </div>
-          </div>
-        </div>
-        <div class="experiencia">
-          <div class="experiencia__imagem"></div>
-          <div class="experiencia__conteudo">
-            <h4 class="experiencia__titulo">Decodificador de texto</h4>
-            <p class="experiencia__descricao">Challenge da Alura</p>
-            <div class="experiencia__botoes">
-              <button class="experiencia__botao experiencia__botao--repositorio">Repositório</button>
-              <button class="experiencia__botao experiencia__botao--demo">Ver demo</button>
+              <a class="experiencia__botao experiencia__botao--repositorio">Repositório</a>
+              <a class="experiencia__botao experiencia__botao--demo">Ver demo</a>
             </div>
           </div>
         </div>
@@ -279,40 +246,47 @@
         <div class="contato">
           <div class="contato__fundo"></div>
           <div class="contato__conteudo">
-  
+
             <h3 class="contato__titulo">Contato</h3>
             <p class="contato__descricao">Quer entrar em contato comigo? Preencha o formulário a seguir e entrarei em
               contato
               o mais rápido possível.</p>
             <form action="" class="formulario">
               <div class="formulario__campos">
-                <label class="formulario__label"><span class="formulario__label--span">Nome</span><input
-                    class="formulario__input" type="text"></label>
+                <label class="formulario__label"><span class="formulario__label--span" data-form-label-nome>Nome</span>
+                  <input class="formulario__input" type="text" onblur="validarNome()" data-form-nome ></label>
+                  <span class="formulario__mensagem-erro" data-form-erro-nome></span>
               </div>
               <div class="formulario__campos">
-                <label class="formulario__label"><span class="formulario__label--span">E-mail</span><input
-                    class="formulario__input" type="email"></label>
+                <label class="formulario__label"><span class="formulario__label--span" data-form-label-email>E-mail</span>
+                  <input class="formulario__input" type="email" onblur="validarEmail()" data-form-email></label>
+                  <span class="formulario__mensagem-erro" data-form-erro-email></span>
               </div>
               <div class="formulario__campos">
-                <label class="formulario__label"><span class="formulario__label--span">Assunto</span><input
-                    class="formulario__input" type="text"></label>
+                <label class="formulario__label"><span class="formulario__label--span" data-form-label-subject>Assunto</span>
+                  <input class="formulario__input" type="text" onblur="validarAssunto()" data-form-subject></label>
+                  <span class="formulario__mensagem-erro" data-form-erro-subject></span>
               </div>
               <div class="formulario__campos">
-                <label class="formulario__label"><span class="formulario__label--span">Mensagem</span><textarea
-                    class="formulario__input formulario__input--mensagem"></textarea></label>
+                <label class="formulario__label"><span class="formulario__label--span" data-form-label-message>Mensagem</span>
+                  <textarea class="formulario__input formulario__input--mensagem" onblur="validarMensagem()" data-form-message></textarea></label>
+                  <span class="formulario__mensagem-erro" data-form-erro-message></span>
               </div>
-              <button class="formulario__botao">Enviar mensagem</button>
+              <button class="formulario__botao" name="button" data-form-button>Enviar mensagem</button>
+                <span class="formulario__mensagem-erro" data-form-erro-botao></span>
+
             </form>
           </div>
-        </div> 
+        </div>
       </div>
     </section>
   </main>
   <footer>
     <section class="foot">
-      <p class="foot__conteudo">Desenvolvido por Deivid Esteferson<br/>2023</p>
+      <p class="foot__conteudo">Desenvolvido por Deivid Esteferson<br />2023</p>
     </section>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>

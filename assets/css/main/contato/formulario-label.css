@@ -10,3 +10,9 @@
 .formulario__label:focus-within{
   color: var(--azul);
 }
+
+.formulario__mensagem-erro{
+  background: var(--bg-azul);
+  color: red;
+  font-size: .8rem;
+}
