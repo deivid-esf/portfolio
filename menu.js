@@ -23,7 +23,7 @@ document.addEventListener('click', function(event) {
   const target = event.target;
   
   // Verificar se o clique ocorreu fora do menu
-  if (!topoBtn.contains(target) && !topoList.contains(target)) {
+  if (window.innerWidth < 768 && !topoBtn.contains(target) && !topoList.contains(target)) {
     // Fechar o menu
     topoList.style.display = "none";
   }
