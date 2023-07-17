@@ -1,6 +1,7 @@
 .apresentacao__perfil--imagem{
   width: 7rem;
   border-radius: 100%;
+  transition: .3s ease-in;
 }
 @media screen and (width >= 768px) {
   .apresentacao__perfil--imagem{
@@ -8,5 +9,8 @@
   }
   .apresentacao__perfil{
     margin-left: 3rem;
+  }
+  .apresentacao__perfil--imagem:hover{
+    scale: 1.3
   }
 }
