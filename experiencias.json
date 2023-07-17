@@ -14,5 +14,13 @@
     "alt": "Print da demo do projeto",
     "demo": "https://github.com/deivid-esf/age-calculator",
     "repositorio": "https://deivid-esf.github.io/age-calculator/"
+  },
+  {
+    "titulo": "Portfólio",
+    "descricao": "Challenge da Alura",
+    "imagem": "assets/imagens/projetos/portfolio.png",
+    "alt": "Print da demo do projeto",
+    "demo": "https://deivid-esf.github.io/portfolio/",
+    "repositorio": "https://github.com/deivid-esf/portfolio"
   }
 ]
