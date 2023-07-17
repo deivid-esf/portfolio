@@ -2,8 +2,15 @@
   text-decoration: none;
   color: var(--texto);
   font-weight: 600;
+  
 }
 
+.apresentacao__link:active{
+  background-color: var(--azul);
+  color: var(--bg-cinza);
+  padding: .3rem;
+  border-radius: 5px;
+}
 .apresentacao__link::after{
   content: "";
   display: inline-block;

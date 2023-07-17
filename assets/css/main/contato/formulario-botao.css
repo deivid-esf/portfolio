@@ -1,7 +1,18 @@
 .formulario__botao{
-  border: 1px solid var(--azul);
   background-color: var(--azul);
+  border: 1px solid var(--azul);
   color: var(--bg-branco);
+  cursor: pointer;
+  font-size: 1.1rem;
   font-weight: 600;
   padding: .5rem 1rem;
+  transition: .3s ease-in-out;
+}
+.formulario__botao:hover{
+  transform: scale(1.05);
+}
+.formulario__botao:active{
+  background-color: var(--bg-azul);
+  border: 1px solid var(--azul);
+  color: var(--azul);
 }

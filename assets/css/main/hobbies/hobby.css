@@ -11,8 +11,11 @@
   flex-direction: column;
   justify-content: flex-end;
 
+  transition: .3s ease-in-out;
 }
-
+.hobby:hover{
+  scale: 1.05;
+}
 @media screen and (width >=768px) {
   .hobby{
     width: calc((100%/3) - 20px);

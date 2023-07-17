@@ -1,20 +1,30 @@
 .experiencia__botao{
   all: unset;
+  cursor: pointer;
+  font-weight: 600;
   text-align: center;
   padding: .5rem 1rem;
-  cursor: pointer;
+  transition: .1s ease-in-out;
 }
+
 .experiencia__botao--repositorio{
   border: 1px solid var(--azul);
   color: var(--azul);
-  font-weight: 600;
 
   margin-right: .5rem;
 }
-
+.experiencia__botao--repositorio:active{
+  border: 1px solid var(--azul);
+  background-color: var(--azul);
+  color: var(--bg-branco);
+}
 .experiencia__botao--demo{
   border: 1px solid var(--azul);
   background-color: var(--azul);
   color: var(--bg-branco);
-  font-weight: 600;
+}
+.experiencia__botao--demo:active{
+  background-color: var(--bg-cinza);
+  border: 1px solid var(--azul);
+  color: var(--azul);
 }
