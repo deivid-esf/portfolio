@@ -1,0 +1,14 @@
+.topo__link{
+  text-decoration: none;
+  color: var(--texto);
+  text-transform: capitalize;
+}
+.topo__link:hover{
+  color: var(--azul);
+}
+@media screen and (width < 768px) {
+  .topo__link{
+    font-size: 1.2rem;
+  }
+
+}

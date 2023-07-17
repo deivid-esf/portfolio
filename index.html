@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="assets/css/header/topo-div-nome.css" />
   <link rel="stylesheet" href="assets/css/header/topo-nome.css" />
   <link rel="stylesheet" href="assets/css/header/topo.css" />
+  <link rel="stylesheet" href="assets/css/header/topo-item.css" />
+  <link rel="stylesheet" href="assets/css/header/topo-link.css" />
+  <link rel="stylesheet" href="assets/css/header/topo-lista.css" />
   <link rel="stylesheet" href="assets/css/main/apresentacao/apresentacao-descricao.css" />
   <link rel="stylesheet" href="assets/css/main/apresentacao/apresentacao-imagem.css" />
   <link rel="stylesheet" href="assets//css/main/apresentacao/apresentacao-item.css" />
@@ -63,12 +66,23 @@
 
 <body>
   <header>
-    <div class="topo largura-limitada">
+    <div id="inicio" class="topo largura-limitada">
       <div class="topo__nome">
-        <img src="assets/imagens/estrelas.svg" alt="Estrelas">
         <p class="topo__nome--titulo">Deivid Esteferson</p>
+        <p class="topo__contato">deivid.esf16@gmail.com</p>
       </div>
-      <p class="topo__contato">deivid.esf16@gmail.com</p>
+      <nav class="topo__navegacao">
+        <button class="topo__botao" data-topo-botao><img class="topo__navegacao--icone" src="assets/imagens/menu.svg" alt="Menu"></button>
+        <ul class="topo__lista" data-topo-lista>
+          <li class="topo__item"><a href="#inicio" class="topo__link">início</a></li>
+          <li class="topo__item"><a href="#sobre" class="topo__link">sobre</a></li>
+          <li class="topo__item"><a href="#skills" class="topo__link">skills</a></li>
+          <li class="topo__item"><a href="#hobbies" class="topo__link">hobbies</a></li>
+          <li class="topo__item"><a href="#formacoes" class="topo__link">formações</a></li>
+          <li class="topo__item"><a href="#experiencias" class="topo__link">experiências</a></li>
+          <li class="topo__item"><a href="#contato" class="topo__link">contato</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
@@ -116,7 +130,7 @@
         </div>
       </div>
     </section>
-    <section class="sobre-mim">
+    <section id="sobre" class="sobre-mim">
       <div class="largura-limitada">
         <h2 class="sobre-mim__titulo">Sobre mim</h2>
         <p class="sobre-mim__descricao">
@@ -137,28 +151,28 @@
         </p>
       </div>
     </section>
-    <section class="secao-skills">
+    <section id="skills" class="secao-skills">
       <div class="largura-limitada">
         <h3 class="skills__titulo">Skills</h3>
         <div class="skills">
         </div>
       </div>
     </section>
-    <section class="secao-hobbies">
+    <section id="hobbies" class="secao-hobbies">
       <div class="largura-limitada">
         <h3 class="hobbies__titulo">Hobbies</h3>
         <div class="hobbies">
         </div>
       </div>
     </section>
-    <section class="secao-formacoes">
+    <section id="formacoes" class="secao-formacoes">
       <div class="largura-limitada">
         <h3 class="formacoes__titulo">Formação acadêmica</h3>
         <div class="formacoes">
         </div>
       </div>
     </section>
-    <section class="secao-experiencias">
+    <section id="experiencias" class="secao-experiencias">
       <div class="largura-limitada">
         <h3 class="experiencias__titulo">Experiência profissional</h3>
         <div class="experiencias">
@@ -166,7 +180,7 @@
         </div>
       </div>
     </section>
-    <section class="secao-contato">
+    <section id="contato" class="secao-contato">
       <div class="largura-limitada">
         <div class="contato">
           <div class="contato__fundo"></div>
@@ -212,6 +226,8 @@
     </section>
   </footer>
   <script src="script.js"></script>
+  <script src="menu.js"></script>
+  <script src="efeitoHeader.js"></script>
   <script src="adicionarSkills.js"></script>
   <script src="adicionarHobbies.js"></script>
   <script src="adicionarFormacoes.js"></script>

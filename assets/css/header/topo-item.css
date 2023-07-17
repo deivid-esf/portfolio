@@ -1,0 +1,10 @@
+.topo__item{
+  list-style: none;
+  margin-right: .3rem;
+}
+
+@media screen and (width < 768px) {
+  .topo__item{
+    margin-bottom: .3rem;
+  }
+}

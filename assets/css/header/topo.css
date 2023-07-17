@@ -1,14 +1,26 @@
 header{
+  background-color: var(--bg-cinza);
+  position: sticky;
+  top: 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   height: 70px;
   width: 100%;
-
-  background-color: var(--bg-cinza);
+  transition: top .3s;
+}
+header.visible{
+  top: 0;
+}
+header.hidden{
+  top: -70px;
 }
 .topo{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  position: relative;
 }

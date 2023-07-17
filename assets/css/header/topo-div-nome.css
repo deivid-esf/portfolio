@@ -1,6 +1,6 @@
 .topo__nome{
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 .topo__nome img{
   height: 35px;

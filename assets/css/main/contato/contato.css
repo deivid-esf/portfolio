@@ -4,7 +4,7 @@
   align-items: center;
 
   background-color: var(--bg-azul);
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 3rem;
 }
 .contato{
   display: flex;
