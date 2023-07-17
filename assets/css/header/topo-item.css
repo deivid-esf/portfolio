@@ -1,8 +1,10 @@
 .topo__item{
   list-style: none;
-  margin-right: .3rem;
+  margin-right: .7rem;
 }
-
+.topo__item:last-of-type{
+  margin-right: 0;
+}
 @media screen and (width < 768px) {
   .topo__item{
     margin-bottom: .3rem;
