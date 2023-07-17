@@ -75,15 +75,6 @@ function validarMensagem() {
 
 function envia(evento) {
   evento.preventDefault();
-  const erroBotao = document.querySelector("[data-form-erro-botao]");
-  const camposValidos = validarNome() && validarEmail() && validarAssunto() && validarMensagem();
-
-  if (!camposValidos) {
-    erroBotao.innerHTML = "Por favor, revise os campos. Algo parece estar errado.";
-  } else {
-    erroBotao.innerHTML = "";
-    alert("Mensagem recebida");
-  }
 }
 
 btn.addEventListener("click", envia);

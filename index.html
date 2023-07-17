@@ -66,13 +66,14 @@
 
 <body>
   <header>
-    <div id="inicio" class="topo largura-limitada">
+    <div class="topo largura-limitada">
       <div class="topo__nome">
         <p class="topo__nome--titulo">Deivid Esteferson</p>
         <p class="topo__contato">deivid.esf16@gmail.com</p>
       </div>
       <nav class="topo__navegacao">
-        <button class="topo__botao" data-topo-botao><img class="topo__navegacao--icone" src="assets/imagens/menu.svg" alt="Menu"></button>
+        <button class="topo__botao" data-topo-botao><img class="topo__navegacao--icone" src="assets/imagens/menu.svg"
+            alt="Menu"></button>
         <ul class="topo__lista" data-topo-lista>
           <li class="topo__item"><a href="#inicio" class="topo__link">início</a></li>
           <li class="topo__item"><a href="#sobre" class="topo__link">sobre</a></li>
@@ -87,7 +88,7 @@
   </header>
 
   <main>
-    <section class="apresentacao">
+    <section id="inicio" class="apresentacao">
       <div class="largura-limitada">
         <div class="apresentacao__div">
           <div class="apresentacao__perfil">
@@ -193,27 +194,30 @@
             <form action="" class="formulario">
               <div class="formulario__campos">
                 <label class="formulario__label"><span class="formulario__label--span" data-form-label-nome>Nome</span>
-                  <input class="formulario__input" type="text" onblur="validarNome()" data-form-nome ></label>
-                  <span class="formulario__mensagem-erro" data-form-erro-nome></span>
+                  <input class="formulario__input" type="text" onblur="validarNome()" data-form-nome></label>
+                <span class="formulario__mensagem-erro" data-form-erro-nome></span>
               </div>
               <div class="formulario__campos">
-                <label class="formulario__label"><span class="formulario__label--span" data-form-label-email>E-mail</span>
+                <label class="formulario__label"><span class="formulario__label--span"
+                    data-form-label-email>E-mail</span>
                   <input class="formulario__input" type="email" onblur="validarEmail()" data-form-email></label>
-                  <span class="formulario__mensagem-erro" data-form-erro-email></span>
+                <span class="formulario__mensagem-erro" data-form-erro-email></span>
               </div>
               <div class="formulario__campos">
-                <label class="formulario__label"><span class="formulario__label--span" data-form-label-subject>Assunto</span>
+                <label class="formulario__label"><span class="formulario__label--span"
+                    data-form-label-subject>Assunto</span>
                   <input class="formulario__input" type="text" onblur="validarAssunto()" data-form-subject></label>
-                  <span class="formulario__mensagem-erro" data-form-erro-subject></span>
+                <span class="formulario__mensagem-erro" data-form-erro-subject></span>
               </div>
               <div class="formulario__campos">
-                <label class="formulario__label"><span class="formulario__label--span" data-form-label-message>Mensagem</span>
-                  <textarea class="formulario__input formulario__input--mensagem" onblur="validarMensagem()" data-form-message></textarea></label>
-                  <span class="formulario__mensagem-erro" data-form-erro-message></span>
+                <label class="formulario__label"><span class="formulario__label--span"
+                    data-form-label-message>Mensagem</span>
+                  <textarea class="formulario__input formulario__input--mensagem" onblur="validarMensagem()"
+                    data-form-message></textarea></label>
+                <span class="formulario__mensagem-erro" data-form-erro-message></span>
               </div>
               <button class="formulario__botao" name="button" data-form-button>Enviar mensagem</button>
-                <span class="formulario__mensagem-erro" data-form-erro-botao></span>
-
+              <span class="formulario__mensagem-erro" data-form-erro-botao></span>
             </form>
           </div>
         </div>
