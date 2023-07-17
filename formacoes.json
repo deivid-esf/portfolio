@@ -1,28 +1,28 @@
 [
   {
     "titulo": "Ensino Médio",
-    "imagem": "assets/imagens/ifpa.webp",
+    "imagem": "assets/imagens/formacoes/ifpa.webp",
     "alt": "Logo do IFPA",
     "ano": "2019 - 2022",
     "nome": "IFPA - Campus Altamira"
   },
   {
     "titulo": "Técnico em Edificações",
-    "imagem": "assets/imagens/ifpa.webp",
+    "imagem": "assets/imagens/formacoes/ifpa.webp",
     "alt": "Logo do IFPA",
     "ano": "2019 - 2022",
     "nome": "IFPA - Campus Altamira"
   },
   {
     "titulo": "Formação em Desenvolvimento Pessoal",
-    "imagem": "assets/imagens/alura.png",
+    "imagem": "assets/imagens/formacoes/alura.png",
     "alt":"Logo da Alura",
     "ano": "2023",
     "nome": "Alura"
   },
   {
     "titulo": "Formação Iniciante em Programação",
-    "imagem": "assets/imagens/alura.png",
+    "imagem": "assets/imagens/formacoes/alura.png",
     "alt":"Logo da Alura",
     "ano": "2023",
     "nome": "Alura"

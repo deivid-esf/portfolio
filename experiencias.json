@@ -2,7 +2,7 @@
   {
     "titulo": "Decodificador de Texto",
     "descricao": "Challenge Alura",
-    "imagem": "assets/imagens/decodificador.png",
+    "imagem": "assets/imagens/projetos/decodificador.png",
     "alt": "Print da demo do projeto",
     "demo": "https://deivid-esf.github.io/decodificador-de-texto/",
     "repositorio": "https://github.com/deivid-esf/decodificador-de-texto"
@@ -10,7 +10,7 @@
   {
     "titulo": "Calculadora de idade",
     "descricao": "Calculadora de idade real, que informa ao usuário sua idade em anos, meses e dias",
-    "imagem": "assets/imagens/age-calculator.png",
+    "imagem": "assets/imagens/projetos/age-calculator.png",
     "alt": "Print da demo do projeto",
     "demo": "https://github.com/deivid-esf/age-calculator",
     "repositorio": "https://deivid-esf.github.io/age-calculator/"
