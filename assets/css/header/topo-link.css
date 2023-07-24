@@ -2,13 +2,33 @@
   text-decoration: none;
   color: var(--texto);
   text-transform: capitalize;
+
 }
 .topo__link:hover{
   color: var(--azul);
 }
+
+.topo__link::after{
+  content: '';
+  display: block;
+  background-color: var(--azul);
+  height: 2px;
+  width: 100%;
+  transition: .8s ease-in-out;
+  scale: 0;
+}
+.topo__item:first-child .topo__link::after{
+  transform-origin: left;
+}
+.topo__item:last-child .topo__link::after{
+  transform-origin: right;
+}
+.topo__link:hover::after{
+  scale: 1;
+}
+
 @media screen and (width < 768px) {
   .topo__link{
     font-size: 1.2rem;
   }
-
 }
