@@ -2,6 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 500px;
+  max-height: 500px;
   width: 100%;
 }

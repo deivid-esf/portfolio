@@ -187,36 +187,36 @@
           <div class="contato__fundo"></div>
           <div class="contato__conteudo">
 
-            <h3 class="contato__titulo">Contato</h3>
-            <p class="contato__descricao">Quer entrar em contato comigo? Preencha o formulário a seguir e entrarei em
-              contato
-              o mais rápido possível.</p>
-            <form action="" class="formulario">
+            <form action="https://formsubmit.co/ajax/deivid.esf16@gmail.com" class="formulario" method="POST" data-form>
+              <h3 class="contato__titulo">Contato</h3>
+              <p class="contato__descricao">Quer entrar em contato comigo? Preencha o formulário a seguir e entrarei em
+                contato
+                o mais rápido possível.</p>
               <div class="formulario__campos">
                 <label class="formulario__label"><span class="formulario__label--span" data-form-label-nome>Nome</span>
-                  <input class="formulario__input" type="text" onblur="validarNome()" data-form-nome></label>
+                  <input class="formulario__input" name="nome" type="text" onblur="validarNome()" data-form-nome></label>
                 <span class="formulario__mensagem-erro" data-form-erro-nome></span>
               </div>
               <div class="formulario__campos">
                 <label class="formulario__label"><span class="formulario__label--span"
                     data-form-label-email>E-mail</span>
-                  <input class="formulario__input" type="email" onblur="validarEmail()" data-form-email></label>
+                  <input class="formulario__input" name="email" type="email" onblur="validarEmail()" data-form-email></label>
                 <span class="formulario__mensagem-erro" data-form-erro-email></span>
               </div>
               <div class="formulario__campos">
                 <label class="formulario__label"><span class="formulario__label--span"
                     data-form-label-subject>Assunto</span>
-                  <input class="formulario__input" type="text" onblur="validarAssunto()" data-form-subject></label>
+                  <input class="formulario__input" name="assunto" type="text" onblur="validarAssunto()" data-form-subject></label>
                 <span class="formulario__mensagem-erro" data-form-erro-subject></span>
               </div>
               <div class="formulario__campos">
                 <label class="formulario__label"><span class="formulario__label--span"
                     data-form-label-message>Mensagem</span>
-                  <textarea class="formulario__input formulario__input--mensagem" onblur="validarMensagem()"
+                  <textarea class="formulario__input formulario__input--mensagem" name="mensagem" onblur="validarMensagem()"
                     data-form-message></textarea></label>
                 <span class="formulario__mensagem-erro" data-form-erro-message></span>
               </div>
-              <button class="formulario__botao" name="button" data-form-button>Enviar mensagem</button>
+              <button class="formulario__botao" data-form-button>Enviar mensagem</button>
               <span class="formulario__mensagem-erro" data-form-erro-botao></span>
             </form>
           </div>
@@ -236,6 +236,7 @@
   <script src="adicionarHobbies.js"></script>
   <script src="adicionarFormacoes.js"></script>
   <script src="adicionarExperiencia.js"></script>
+  <script src="enviarEmail.js"></script>
 </body>
 
 </html>
